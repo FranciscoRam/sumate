@@ -1,0 +1,212 @@
+body {
+  background-color: #F4F7F7;
+}
+
+h2 {
+  padding-left: 10%;
+}
+
+.navbar, .dropdown-menu{
+  background:rgba(0,0,0,0.7);
+  border: none;
+}
+
+.nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
+  border-bottom: 3px solid transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  border-bottom: 3px solid transparent;
+  background: none;
+}
+.navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-toggle{
+ color: #FFFFFF;
+}
+.dropdown-menu{
+      -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.navbar-header img {
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 60px;
+  height: auto;
+}
+
+.nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
+  border-bottom: #C4E17F 3px solid;
+}
+.nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
+  border-bottom: #F7FDCA 3px solid;
+}
+.nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
+  border-bottom: #FECF71 3px solid;
+}
+.nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
+  border-bottom: #F0776C 3px solid;
+}
+.nav li:hover:nth-child(8n+5), .nav li.active:nth-child(8n+5){
+  border-bottom: #DB9DBE 3px solid;
+}
+.nav li:hover:nth-child(8n+6), .nav li.active:nth-child(8n+6){
+  border-bottom: #C49CDE 3px solid;
+}
+.nav li:hover:nth-child(8n+7), .nav li.active:nth-child(8n+7){
+  border-bottom: #669AE1 3px solid;
+}
+.nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
+  border-bottom: #62C2E4 3px solid;
+}
+
+.navbar-toggle .icon-bar{
+    color: #000;
+    background: #000;
+}
+
+/*--------------Nav bar-------------*/
+
+.embed-responsive {
+  height: 300px;
+  width: 320px;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-right: 250px;
+}
+
+.frame {
+  width: 90%;
+  height: 340px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0;
+  border: 1px dotted gray;
+}
+
+.buttons {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.frame .slidee {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+}
+
+.frame .slidee li {
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 0;
+  width: 330px;
+  height: 100%;
+}
+
+.scrollbar {
+  width: 640px;
+  height: 5px;
+}
+
+.scrollbar .handle {
+  width: 100px;
+  /* overriden if dynamicHandle: 1 */
+  height: 100%;
+  background: #888;
+}
+
+.nopadding {
+  padding: 2px !important;
+  margin: 0 !important;
+  outline: 2px solid #333;
+  background: #333;
+}
+
+/* Global */
+
+
+img { max-width:100%; }
+
+a {
+    -webkit-transition: all 150ms ease;
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease;
+	}
+
+a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE7 */
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.thumbnails li> .fff .caption {
+    background:#fff !important;
+    padding:10px
+}
+
+ul.thumbnails {
+    margin-bottom: 0px;
+}
+
+/* Thumbnail Box */
+.caption h4 {
+    color: #444;
+}
+
+.caption p {
+    color: #999;
+}
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+.carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    }
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+
+li { list-style-type:none;}
+
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }

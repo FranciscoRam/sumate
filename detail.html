@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/detail.css" rel="stylesheet">
+    <title>La propuesta</title>
+  </head>
+  <body>
+
+    <div class="navbar-wrapper">
+      <div class="container-fluid">
+        <nav class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Cambiar navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html">
+                <img id="logo" class="img-responsive" src="/images/logo-sumat.png" alt="Logo sumat" />
+              </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="home.html" class="">Inicio</a></li>
+                <li class=" dropdown">
+                  <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorías <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class=" dropdown">
+                      <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gobierno</a>
+                    </li>
+                    <li><a href="#">Seguridad</a></li>
+                    <li><a href="#">Medio ambiente</a></li>
+                    <li><a href="#">Gobierno</a></li>
+                    <li><a href="#">Educación</a></li>
+                    <li><a href="#">Corrupción</a></li>
+                    <li><a href="#">Juventud</a></li>
+                    <li><a href="#">Deporte</a></li>
+                    <li><a href="#">Obra pública</a></li>
+                    <li><a href="#">Finanzas públicas</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav pull-right">
+                <li>
+                  <form class="navbar-form" role="search">
+                    <div class="input-group">
+                      <input type="text" class="form-control pull-right" style="width: 200px; margin-right: 35px, border: 1px solid black; background-color: #e5e5e5;" placeholder="Buscar">
+                        <span class="input-group-btn">
+                          <button type="reset" class="btn btn-default">
+                            <span class="glyphicon glyphicon-remove">
+                              <span class="sr-only">Cerrar</span>
+                            </span>
+                          </button>
+                          <button type="submit" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search">
+                              <span class="sr-only">Buscar</span>
+                            </span>
+                          </button>
+                        </span>
+                      </div>
+                    </form>
+                </li>
+                <li class=""><a href="index.html">Cerrar sesión</a></li>
+                <li class=""><a href="help.html">Ayuda</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div> <!--End Navigation bar-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Propuesta para aumentar la participación ciudadana</h3>
+          <p>
+            Esta propuesta busca disminuir los altos porcentajes de firmas requeridas
+            para llevar a cabo una reforma a un artículo de la Constitución del Estado de
+            Guanajuato o cualquier otro proyecto de ley que dentro de sus requisitos
+            solicite un porcentaje del padrón electoral (personas con credencial INE).
+          </p>
+          <p>
+            ¿Quieres ver el proyecto completo?
+          </p>
+          <a href="http://www.cca.org.mx/apoyos/cesi/AprendiendoJuntos/AprendiendoJuntos_parte2.pdf">¡Por aquí!</a>
+          <br>
+          <div class="buttons">
+            <button type="button" class="btn btn-info btn-circle"><i class="glyphicon glyphicon-ok"></i></button>
+            <button type="button" class="btn btn-success btn-circle"><i class="glyphicon glyphicon-link"></i></button>
+          </div>
+        </div><!--.col -->
+        <div class="col-md-8">
+          <div class="vid">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/V2oDULa1JIA" allowfullscreen=""></iframe>
+          </div><!--./vid -->
+        </div><!--.col -->
+      </div><!--./row -->
+    </div><!--./container -->
+
+    <!--Profile details-->
+<div class="container-p">
+  <div class="span3-w">
+    <center>
+      <h2>Una propuesta de...</h2>
+      <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="/images/photo_profile.png" name="aboutme" width="140" height="140" class="img-circle"></a>
+      <h3>Jaime Loyola</h3>
+      <em>Click en mi foto para más detalles</em>
+    </center>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+          <h4 class="modal-title" id="myModalLabel">Más acerca de Jaime</h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="/images/photo_profile.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+            <h3 class="media-heading">Jaime Loyola - <small>MX</small></h3>
+            <span><strong>Temas de interes: </strong></span>
+            <span class="label label-warning">Participación ciudadana</span>
+            <span class="label label-info">Educación</span>
+            <span class="label label-info">Corrupción</span>
+            <span class="label label-success">Obras públicas</span>
+          </center>
+          <hr>
+          <center>
+            <p class="text-left"><strong>Bio: </strong><br>
+              Estudiante de Ingeniería en Sistemas Computacionales en la Universidad de Guanajuato.
+              Diputado Juvenil por la LXIII Legislatura del H. Congreso del Estado.
+              Victoria, Gto. 21 años
+              Hoop CO-FOUNDER.
+            </p>
+            <br>
+          </center>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Vale.</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Disqus-->
+  <div class="comments">
+    <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+
+    };*/
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//jaimelr-github-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script id="dsq-count-scr" src="//jaimelr-github-io.disqus.com/count.js" async></script>
+  </body>
+</html>
